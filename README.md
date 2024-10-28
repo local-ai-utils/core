@@ -2,8 +2,8 @@
 Core utilities for local-ai-utils. This package is mostly handy developer tools and routing for all the other local-ai-utils plugins that will work together.
 
 ### Functionality
-[] Plugin loading
+[x] Plugin loading
 [] Push notifications
-[] Config
+[x] Config
 [] Client management
 [] Logging
