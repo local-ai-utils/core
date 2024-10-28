@@ -5,6 +5,10 @@ class LocalAIUtilsCore:
         self.__config = Config.load()
 
     def getPluginConfig(self):
+        plugins = []
+        if 'plugins' in self.__config:
+            plugins = self.__config['plugins']
+
         return {
-            self.__config.plugins
+            'plugins': plugins
         }

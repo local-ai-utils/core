@@ -4,7 +4,9 @@ from core.config import Config
 from unittest.mock import mock_open, patch
 
 def test_default_configs():
-    mock_config_yaml = {}
+    mock_config_yaml = {
+        'plugins': []
+    }
     with patch("builtins.open", mock_open(read_data="")):
         with patch("yaml.safe_load", return_value=mock_config_yaml):
             config = Config()

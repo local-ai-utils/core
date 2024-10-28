@@ -7,7 +7,7 @@ class PluginManager:
         self.plugins = {}
 
     def load_plugins(self):
-        for plugin_name in self.config.plugins:
+        for plugin_name in self.config['plugins']:
             try:
                 module = importlib.import_module(f"{plugin_name}")
                 if hasattr(module, 'register'):
