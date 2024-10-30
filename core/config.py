@@ -10,6 +10,7 @@ class Config:
     def __init__(self):
         config = Config.load()
         self.plugins = config.get('plugins', [])
+        self.keys = config.get('keys', {})
 
     def load():
         if Config.loaded_config is not None:
