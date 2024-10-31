@@ -31,8 +31,8 @@ Some plugins we'd recommend:
 - [**listen**](https://github.com/local-ai-utils/listen) for getting quick text-to-speech from your microphone
 
 ## TODO
-[x] Plugin loading  
-[] Push notifications  
-[x] Config  
-[x] Client management  
-[] Logging  
+- [x] Plugin loading  
+- [] Push notifications  
+- [x] Config  
+- [x] Client management  
+- [] Logging  
