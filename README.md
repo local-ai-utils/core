@@ -1,7 +1,7 @@
 # Local AI Utils - Core
 Local AI Utils is a framework and set of local utilities for interacting with AI on your local computer. Conceptually each piece of local-ai-itls should be single-purpose and modular, such that end users can piece together their own AI-powered tool chains.
 
-![Local AI Utils Demo](/docs/full_assist.png)
+![Local AI Utils Demo](/docs/full_assist.gif)
 
 ## Quickstart
 Currently installation is only supported via the GitHub remote.
