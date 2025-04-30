@@ -6,6 +6,7 @@ setup(
     packages=['local_ai_utils_core'],
     package_dir={"local_ai_utils_core": "core"},
     install_requires=[
+        'openai',
         'pyyaml',
         'pytest'
     ],
