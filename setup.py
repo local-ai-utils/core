@@ -8,6 +8,7 @@ setup(
     install_requires=[
         'openai',
         'pyyaml',
-        'pytest'
+        'pytest',
+        'desktop-notifier'
     ],
 )
